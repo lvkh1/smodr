@@ -1,0 +1,27 @@
+# Conditional logic example
+# Shows IF/THEN/ELSE statements
+
+age = 25
+
+IF age < 18 THEN
+  print("You are a minor")
+ELSE
+  print("You are an adult")
+END
+
+# Nested conditionals
+score = 85
+
+IF score >= 90 THEN
+  print("Grade: A")
+ELSE
+  IF score >= 80 THEN
+    print("Grade: B")
+  ELSE
+    IF score >= 70 THEN
+      print("Grade: C")
+    ELSE
+      print("Grade: D or F")
+    END
+  END
+END

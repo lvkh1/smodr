@@ -1,0 +1,4 @@
+# Hello World Example
+# This is the simplest smodr program
+
+print("Hello, World!")

@@ -1,0 +1,17 @@
+# Fibonacci sequence using recursion
+# Another example of recursive expression
+
+DEFINE fibonacci(n)
+  IF n <= 1 THEN
+    RETURN n
+  ELSE
+    RETURN fibonacci(n - 1) + fibonacci(n - 2)
+  END
+END
+
+# Print first 10 Fibonacci numbers
+i = 0
+WHILE i < 10 DO
+  print("fibonacci(", i, ") =", fibonacci(i))
+  i = i + 1
+END

@@ -1,0 +1,16 @@
+# Simple arithmetic and variables
+# Basic example showing variable assignment and expressions
+
+x = 10
+y = 20
+sum = x + y
+diff = x - y
+prod = x * y
+quot = x / y
+
+print("x =", x)
+print("y =", y)
+print("x + y =", sum)
+print("x - y =", diff)
+print("x * y =", prod)
+print("x / y =", quot)
