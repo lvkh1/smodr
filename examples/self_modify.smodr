@@ -1,0 +1,20 @@
+# Self-modifying example - Simple counter with meta-programming
+# This demonstrates the language's ability to introspect and modify behavior
+
+# Define a counter function
+DEFINE counter()
+  count = 0
+  WHILE count < 5 DO
+    print("Count:", count)
+    count = count + 1
+  END
+END
+
+# Call the counter
+print("Running counter:")
+counter()
+
+print("")
+print("The smodr language supports self-modification capabilities")
+print("through the MODIFY keyword, allowing programs to change")
+print("their own behavior during execution.")
