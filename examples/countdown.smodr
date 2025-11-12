@@ -1,0 +1,12 @@
+# Countdown example
+# Demonstrates WHILE loops and control flow with STOP..WORDS
+
+count = 10
+
+WHILE count > 0 DO
+  print("Countdown:", count)
+  PAUSE  # A STOP..WORD that could be used for control flow
+  count = count - 1
+END
+
+print("STOP")  # Final STOP..WORD
